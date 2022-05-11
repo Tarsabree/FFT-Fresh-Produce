@@ -1,0 +1,13 @@
+.categories{
+    justify-content: space-between;
+}
+.categories .col-3{
+    text-align: center;
+
+}
+.product .row{
+    margin: 20px;
+}
+.card{
+    justify-content:space-between;
+}
