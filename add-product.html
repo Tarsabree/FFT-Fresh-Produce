@@ -11,11 +11,19 @@
 </head>
 <body>
     <div class="container">
+        <!--Page title-->
+
         <h2 class="title">
             Add new product
         </h2>
+
         <div class="row">
+        <!--row will be divided into two parts one for image another for details-->
+
+
             <div class="col-4 product-image">
+            <!--New product image-->
+
                 <div class="card" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
@@ -23,15 +31,21 @@
                     </div>
                 </div>
             </div>
+            <!--New product details: the add button is attached to each input tag 
+                (will decide later if that is convenient or not)-->
+
             <div class="col-4 product-details">
+            <!--Product name-->
                 <div class="input-group mb-3">
                     <input type="text" class="form-control" placeholder="Product Name" aria-label="Product Name" aria-describedby="button-addon1">
                     <button class="btn btn-outline-secondary" type="button" id="button-addon1">Add</button>
                 </div>
+                <!--Product Price-->
                 <div class="input-group mb-3">
                     <input type="number" class="form-control" placeholder="Price" aria-label="Price" aria-describedby="button-addon2">
                     <button class="btn btn-outline-secondary" type="button" id="button-addon2">Add</button>
                 </div>
+                <!--Product quantity-->
                 <div class="input-group mb-3">
                     <input type="number" class="form-control" placeholder="Quantity" aria-label="Quantity" aria-describedby="button-addon3">
                     <button class="btn btn-outline-secondary" type="button" id="button-addon3">Add</button>
